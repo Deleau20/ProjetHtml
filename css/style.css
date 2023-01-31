@@ -1,0 +1,421 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    
+  }
+  
+  body{
+    border-top-right-radius: 100px;
+    background-color: aquamarine;
+  }
+  
+  p{
+    font-weight: normal;
+    color: #1111;
+  }
+  
+  header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 2%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: rgb(26, 190, 17);
+    border-color: white;
+    
+  }
+  
+  .Logo{
+    color: #111;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+  }
+  
+  .Logo span{
+    color: #f9f9f9;
+  
+  }
+  
+  .navbar{
+    display: flex;
+    position: relative;
+  }
+  
+  .navbar li{
+    list-style: none;
+    font-size: 20px;
+    border-color: #111111;
+    
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    color: white;
+  
+  }
+  
+  .bnt-sinistre{
+    padding: 10px;
+    margin-top: -10px;
+    
+  }
+
+  a.bnt-sinistre{
+    list-style: none;
+    font-size: 20px;
+  }  
+  
+  /*Au survole de mes items de sinistre*/
+  .bnt-sinistre:hover{
+    background: rgb(255, 255, 255);
+    transition: ease-in-out;
+    border-radius: 20px;
+    color: black;
+  }
+  
+  /*Au survole de mes items de navbar*/
+  header .navbar li a:hover{
+    color: #111111;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .barniere{
+    position: relative;
+    top: 250px;
+    width: 30%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .barniere .contenu{
+    max-width: 100%;
+  }
+  
+  .btn1{
+    font-size: 1em;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  
+  }
+  
+  .btn2{
+    font-size: 1em;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  
+  
+  }
+  
+  .btn1:hover{
+    background: rgb(255, 255, 255);
+    transition: ease-in-out;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  
+  }
+  
+  .btn2:hover{
+    background: rgb(255, 255, 255);
+    transition: ease-in-out;
+    border-radius: 20px;
+   color: black;
+   font-family: 'Montserrat', sans-serif;
+   padding: 10px 20px;
+   text-decoration: none;
+   font-weight: bold;
+   transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  
+  
+  }
+  
+  .contenu h2{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: white;
+    font-size: 36px;
+  }
+
+
+#image1{
+    position: absolute;
+    left: 450px;
+    bottom: -100px;
+     width: 750px;
+
+}
+
+ #noor{ /*marge du haut */
+    position:absolute;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    bottom: 488px;
+
+}
+
+ .moussa{ /*bord arrondi pour voiture */
+    background-color: rgb(26, 190, 17);
+    height: 700px;
+    border-bottom-right-radius: 250px;
+}
+
+.marie{ /*bord du bas de voiture*/
+    position: absolute;
+    background-color: rgb(26, 190, 17);
+    height: 75px;
+    width: 100%;
+    bottom: -150px;
+
+}
+
+.ptvoiture3{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  top: 30px;
+}
+
+.obtenir{
+  width: 32%;
+  height: 430px;
+  background-color: white;
+  left: 150px;
+  position: relative;
+  bottom: -30px;
+
+}
+
+.obtenir:hover{
+  background: rgb(0, 0, 0);
+    transition: ease-in-out;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  
+}
+
+.obtenir a:hover{
+  background: rgb(255, 255, 255);
+  transition: ease-in-out;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.soixante{
+  color: white;
+  top: 200px;
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: space-between;
+  line-height: 1.5;
+  left: 25px;
+  color: black;
+}
+
+.soixante span{
+  font-weight: bold;
+}
+
+.obtenir a{
+  color: white;
+  top: 250px;
+  position: relative;
+  left: 150px;
+  font-size: 30px;
+  background-color: #1ABE11;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+
+
+.faire{
+  width: 32%;
+  height: 430px;
+  background-color: white;
+  left: 700px;
+  position: relative;
+  bottom: 400px;
+  text-decoration: none;
+}
+
+.faire:hover{
+  background: rgb(255, 255, 255);
+  transition: ease-in-out;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.faire a{
+  color: white;
+  top: 250px;
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+  background-color: #1ABE11;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+
+.faire a:hover{
+  background: rgb(255, 255, 255);
+  transition: ease-in-out;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.faire p:hover{
+  color: white;
+}
+
+.ptvoiture4{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  top: 25px;
+}
+
+.dumal{
+  text-align: center;
+  position: relative;
+  top: -300px;
+  font-size: 30px;
+}
+
+.repondre{
+  position: relative;
+  text-align: center;
+  top: 25px;
+  font-weight: 100;
+}
+
+.dumal a{
+  position: relative;
+  top: 60px;
+  text-align: center;
+  background-color: #1ABE11;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.voiture{
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  top: 850px;
+  border-top-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Couverture{
+  position: absolute;
+  font-weight: 400;
+  width: 420px;
+  height: 300px;
+  top: 1300%;
+  left: 65%;
+  font-size: 25px;
+  text-align: left;
+  display: inline;
+  line-height: 4;
+
+}
+
+.panne{
+  position: relative;
+  left: 20px;
+  top: 80px;
+}
+
+.temoi{
+  position: relative;
+  width: 1250px;
+  height: 400px;
+  background-color: white;
+  top: 424px;
+}
+
+.police{
+  position: absolute;
+  left: px;
+  bottom: 75px;
+}
+
+.dix{
+  position: relative;
+  width: 130px;
+  height: 120px;
+  left: 60px;
+}
+
+.service{
+  position: relative;
+  top: 72px;
+  left: 60px;
+}
+
+.pourcent{
+  position: relative;
+  left: 70px;
+}
